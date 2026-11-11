@@ -1,0 +1,60 @@
+/*Hela dokumentet*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Hela body*/
+
+body {
+    background-color: #D9EAFD;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* alla p element */
+p {
+    line-height: 1.5;
+}
+
+/*Alla bilder*/
+
+img {
+    width: 100%;
+}
+
+/*Header*/
+
+header {
+    background-color: #F8FAFC;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header li {
+    text-decoration: none;
+}
+
+
+
+/*STORA SKÄRMAR*/
+@media (min-width: 768px) {
+
+    /*Hamburge meny*/
+    .menu-toggle {
+        display: none;
+    }
+
+    .header-nav {
+        display: flex;
+        width: auto;
+        align-items: center;
+    }
+
+    .header-nav ul {
+        display: flex;
+        gap: 20px;
+    }
+}
