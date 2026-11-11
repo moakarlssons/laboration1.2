@@ -49,11 +49,12 @@ header li {
 }
 
 .info {
-    padding: 20px;
+    padding: 10px;
 }
 
 .gallery-section {
     text-align: center;
+    padding-top: 10px;
 }
 
 .start-gallery {
@@ -87,8 +88,14 @@ h1 {
 
 .image-comparison p {
     text-align: center;
+    padding-top: 10px;
 }
 
+/*Om mig*/
+
+.aboutme {
+    padding: 20px;
+}
 
 /*Hamburgemenyn*/
 
