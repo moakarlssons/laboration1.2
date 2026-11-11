@@ -9,7 +9,7 @@
 /*Hela body*/
 
 body {
-    background-color: #D9EAFD;
+    background-color: #9DB2BF;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -27,7 +27,7 @@ img {
 /*Header*/
 
 header {
-    background-color: #F8FAFC;
+    background-color: #DDE6ED;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
