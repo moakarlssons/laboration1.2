@@ -9,8 +9,9 @@
 /*Hela body*/
 
 body {
-    background-color: #9DB2BF;
+    background-color: whitesmoke;
     font-family: Helvetica, Arial, sans-serif;
+    padding-bottom: 20px;
 }
 
 /* alla p element */
@@ -45,7 +46,7 @@ header li {
 /*Startsida*/
 
 .hero {
-    opacity: 0.75;
+    opacity: 0.90;
 }
 
 .info {
@@ -97,6 +98,10 @@ h1 {
 /*Om mig*/
 
 .aboutme {
+    padding: 20px;
+}
+
+.aboutme>div {
     padding: 20px;
 }
 
