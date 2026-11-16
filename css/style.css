@@ -183,4 +183,22 @@ h1 {
         flex-grow: 1;
         flex-basis: 200px;
     }
+
+    /* Om mig */
+
+    .aboutme {
+        justify-content: center;
+    }
+
+    .aboutme>div {
+        display: flex;
+        gap: 16px;
+        flex-grow: 1;
+    }
+
+    .aboutme img {
+        min-width: 300px;
+        max-width: 600px;
+        object-fit: contain;
+    }
 }
